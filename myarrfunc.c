@@ -86,7 +86,7 @@ int countBelow(int *arrptr, size_t n, int k)
 int indicesAbove(int *arrptr, size_t n, int k)
 {
 	int count = 0;
-	for (size_t i = 0; i < n, i++)
+	for (size_t i = 0; i < n; i++)
 	{
 		if (*(arrptr + i) > k)
 		{
